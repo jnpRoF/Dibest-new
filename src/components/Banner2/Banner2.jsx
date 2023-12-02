@@ -41,7 +41,7 @@ const Banner2 = () => {
               fontsize="text-[1.005rem]"
             />
             <Card
-              icon={<HiMiniRocketLaunch />}
+              icon="🚀"
               iconColor="text-demColor"
               src={images.group3}
               headText="Exciting Auctions"
@@ -52,7 +52,7 @@ const Banner2 = () => {
           </div>
           <div className="flex">
             <Card
-              icon={<FaHandshakeSimple />}
+              icon="🤝"
               iconColor="text-gold"
               src={images.group4}
               headText="Community Connection"

@@ -1,5 +1,5 @@
-import images from "../../constants/images";
 import Button from "../Button/Button";
+import MarketPlaceCard from "../MarketPlaceCard/MarketPlaceCard";
 
 const MarketPlace = () => {
   return (
@@ -20,93 +20,46 @@ const MarketPlace = () => {
         </div>
       </div>
       <div className="flex space-x-2 p-5 overflow-x-hidden">
-        <div className="flex p-6 py-8 border rounded-md h-[420px] w-4/5 justify-between shrink-0 translate-x-[20px]">
-          <img src={images.card1} alt="" className="h-full w-[49%]" />
-          <div className="flex flex-col space-y-3 h-full w-[49%] justify-between">
-            <h3 className="font-semibold text-3xl">Ecommerce</h3>
-            <div className="flex flex-col space-y-3">
-              <p className="">
-                A culinary masterpiece awaits those seeking an extraordinary
-                dining experience. A gem among gastronomic treasures, beckons
-                patrons to embark on a journey through the senses. From the
-                moment you step through its doors, the restaurant unveils a
-                symphony of flavors, textures, and aromas that dance
-                harmoniously on the palate.
-              </p>
-              <p className="">
-                The ambiance is a carefully curated blend of modern elegance and
-                timeless charm. Soft ambient lighting, stylish decor, and
-                thoughtfully arranged seating create an inviting atmosphere.
-                Whether it's an intimate dinner for two, a celebration with
-                friends, or a business meeting, the restaurant effortlessly
-                adapts to set the perfect mood.
-              </p>
-            </div>
-            <div className="">
-              <Button className="p-2 px-8 bg-darkPink rounded-sm text-white">
-                LEARN MORE
-              </Button>
-            </div>
-          </div>
-        </div>
-        <div className="flex p-6 py-8 border rounded-md h-[420px] w-4/5 justify-between shrink-0">
-          <img src={images.card1} alt="" className="h-full w-[49%]" />
-          <div className="flex flex-col space-y-3 h-full w-[49%] justify-between">
-            <h3 className="font-semibold text-3xl">Ecommerce</h3>
-            <div className="flex flex-col space-y-3">
-              <p className="">
-                A culinary masterpiece awaits those seeking an extraordinary
-                dining experience. A gem among gastronomic treasures, beckons
-                patrons to embark on a journey through the senses. From the
-                moment you step through its doors, the restaurant unveils a
-                symphony of flavors, textures, and aromas that dance
-                harmoniously on the palate.
-              </p>
-              <p className="">
-                The ambiance is a carefully curated blend of modern elegance and
-                timeless charm. Soft ambient lighting, stylish decor, and
-                thoughtfully arranged seating create an inviting atmosphere.
-                Whether it's an intimate dinner for two, a celebration with
-                friends, or a business meeting, the restaurant effortlessly
-                adapts to set the perfect mood.
-              </p>
-            </div>
-            <div className="">
-              <Button className="p-2 px-8 bg-darkPink rounded-sm text-white">
-                LEARN MORE
-              </Button>
-            </div>
-          </div>
-        </div>
-        <div className="flex p-6 py-8 border rounded-md h-[420px] w-4/5 justify-between shrink-0">
-          <img src={images.card1} alt="" className="h-full w-[49%]" />
-          <div className="flex flex-col space-y-3 h-full w-[49%] justify-between">
-            <h3 className="font-semibold text-3xl">Ecommerce</h3>
-            <div className="flex flex-col space-y-3">
-              <p className="">
-                A culinary masterpiece awaits those seeking an extraordinary
-                dining experience. A gem among gastronomic treasures, beckons
-                patrons to embark on a journey through the senses. From the
-                moment you step through its doors, the restaurant unveils a
-                symphony of flavors, textures, and aromas that dance
-                harmoniously on the palate.
-              </p>
-              <p className="">
-                The ambiance is a carefully curated blend of modern elegance and
-                timeless charm. Soft ambient lighting, stylish decor, and
-                thoughtfully arranged seating create an inviting atmosphere.
-                Whether it's an intimate dinner for two, a celebration with
-                friends, or a business meeting, the restaurant effortlessly
-                adapts to set the perfect mood.
-              </p>
-            </div>
-            <div className="">
-              <Button className="p-2 px-8 bg-darkPink rounded-sm text-white">
-                LEARN MORE
-              </Button>
-            </div>
-          </div>
-        </div>
+        <MarketPlaceCard
+          headText="Restaurants"
+          bodyText="Savor Success and Boost Your Restaurant's Visibility: Enroll as a Vendor in the Ultimate Restaurant Marketplace!Are you a culinary maestro looking to tantalize taste buds or a food enthusiast eager to explore the finest dining experiences? Welcome to our Restaurant Marketplace, where flavors, innovation, and community converge. Whether you're a restaurant owner or a foodie on the hunt for the next delectable dish, this is your gastronomic haven."
+          btnColor="bg-restaurantsColor"
+        />
+        <MarketPlaceCard
+          headText="OnDemand Services"
+          bodyText="Be a Pioneer in the On-Demand Evolution: Secure Your Spot Today! Don't miss the opportunity to redefine your business. Join as a vendor today for your On-Demand business and take your services to new heights. DiBest Spot is not just a marketplace; it's a platform for growth, innovation, and success."
+          btnColor="bg-demColor"
+        />
+        <MarketPlaceCard
+          headText="Property Rental"
+          bodyText=" Unlock Your Property's Full Rental Potential : Join today as a vendor ready to take the next step in maximizing your property's rental potential? Enroll as a Vendor and experience the difference. Click the button to start your journey towards increased rental income and stress-free property management."
+          btnColor="bg-renColor"
+        />
+        <MarketPlaceCard
+          headText="Ecommerce"
+          bodyText='Supercharge Your E-Commerce Business: Unlock new markets, boost sales, and enjoy a host of benefits that will revolutionize your online business. Click the "Enroll as Vendor" button to revolutionize your online business with increased sales, broader reach, and unparalleled support. Discover a world of opportunities.'
+          btnColor="bg-darkPink"
+        />
+        <MarketPlaceCard
+          headText="Ewallet"
+          bodyText="Effortless Transactions with Enhanced Security:Say goodbye to cumbersome payment processes. Our Platform ensures quick and hassle-free transactions for both vendors and customers. Ready to transform the way you do business? Enroll as a Vendor Today and harness the power of our integrated platform."
+          btnColor="bg-ewalletColor"
+        />
+        <MarketPlaceCard
+          headText="Egift"
+          bodyText="Boost Your Brand: Leverage our marketplace to elevate your brand's presence. Benefit from increased exposure, customer reviews, and word-of-mouth marketing that will establish your business as a trusted and reliable choice. Enroll as a Vendor Today and harness the power of our integrated platform."
+          btnColor="bg-gold"
+        />
+        <MarketPlaceCard
+          headText="Caribbean Region"
+          bodyText="Discover the Caribbean Paradise and Enjoy An Authentic Caribbean Experience: Are you ready to immerse yourself in the vibrant colors, rich culture, and breathtaking landscapes of the Caribbean? Welcome to our Caribbean Marketplace, where vendors and users come together to celebrate the beauty of this tropical haven. Whether you're a local business or an avid explorer, this is your gateway to unforgettable events, enticing tourism packages, and captivating attractions."
+          btnColor="bg-carrRegionColor"
+        />
+        <MarketPlaceCard
+          headText="Medicals"
+          bodyText="Empower Your Wellness Journey: Are you ready to experience a new standard of healthcare and revolutionize the way you access medical services? Then embark on a journey towards personalized, convenient, and top-notch healthcare. Discover a world where your well-being is top priority. Sign Up Now as a DiBest Member for FREE! Take the first step toward a healthier, happier you. Our platform is designed to make quality healthcare accessible to everyone."
+          btnColor="bg-amber-500"
+        />
       </div>
     </>
   );

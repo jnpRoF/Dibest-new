@@ -13,7 +13,7 @@ const Card = ({
         <img src={src} alt="" className="rounded-lg h-full w-[30%]" />
         <div className="flex flex-col h-full w-[66%] text-start justify-center space-y-1">
           <div className="flex space-x-1">
-            <span className={`text-3xl ${iconColor}`}>{icon}</span>
+            <span className={`text-3xl ${iconColor}`}>{icon} </span>
             <span className="text-purple font-semibold text-xl">
               {headText}
             </span>
