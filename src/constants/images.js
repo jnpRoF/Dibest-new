@@ -29,7 +29,7 @@ import pexels2 from "/assets/pexels2.jpg";
 import property from "/assets/property.jpg";
 import vector from "/assets/vector.png";
 import vector2 from "/assets/vector2.png";
-import shootingLight from "/assets/shooting light .jpg";
+import shootingLight from "/assets/shooting light.jpg";
 
 export default {
   num,
