@@ -19,6 +19,7 @@ export default {
         restaurantsColor: "#F6A913",
         demColor: "#0C8BE8",
         renColor: "#FF5D01",
+        lightColor: "#F1F1F1",
       },
     },
   },
