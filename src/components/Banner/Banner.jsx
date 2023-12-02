@@ -2,7 +2,7 @@ import Button from "../Button/Button";
 
 const Banner = () => {
   return (
-    <div className="flex flex-col justify-between h-[87%] mx-auto w-[67%] absolute top-0 right-[16%] top-[35%] space-y-10">
+    <div className="flex flex-col justify-between h-[87%] mx-auto w-[67%] absolute top-0 right-[17%] top-[35%] space-y-10">
       <div className="flex justify-center w-full">
         <div className="flex flex-col space-y-6 items-center text-center w-4/5 text-white">
           <h1 className="text-[4rem] font-semibold">Welcome to DiBest Spot</h1>
@@ -12,7 +12,7 @@ const Banner = () => {
           <Button className="p-2 px-8 bg-gold rounded-md">Start Now</Button>
         </div>
       </div>
-      <div className="flex justify-between p-7 px-20 bg-gold">
+      <div className="flex justify-between p-7 px-20 bg-gold rounded-xl">
         <div className="text-white w-[33%] flex items-center text-3xl font-semibold">
           Why DiBest Spot for the Carribean?
         </div>
