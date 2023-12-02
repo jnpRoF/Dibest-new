@@ -21,7 +21,8 @@ const Banner2 = () => {
         <div className="flex flex-col space-y-2 w-3/5">
           <div className="flex">
             <Card
-              icon={<FaHandshakeSimple />}
+              icon={<GiShoppingBag />}
+              iconColor="text-darkPink"
               src={images.group1}
               headText="Shop Local"
               bodyText="Support local businesses and find the best deals from restaurants, ondemand service providers, rental properties, classified and local products crafted and sold right in your community."
@@ -32,6 +33,7 @@ const Banner2 = () => {
           <div className="flex justify-between">
             <Card
               icon={<CiGlobe />}
+              iconColor="text-demColor"
               src={images.group2}
               headText="Go Global"
               bodyText="Explore a world of possibilites with international sellers and unique items from around the globe."
@@ -40,6 +42,7 @@ const Banner2 = () => {
             />
             <Card
               icon={<HiMiniRocketLaunch />}
+              iconColor="text-demColor"
               src={images.group3}
               headText="Exciting Auctions"
               bodyText="Dive into the thrill of live auctions, Bid on your dream items and enjoy the excitement of winning!"
@@ -49,7 +52,8 @@ const Banner2 = () => {
           </div>
           <div className="flex">
             <Card
-              icon={<GiShoppingBag />}
+              icon={<FaHandshakeSimple />}
+              iconColor="text-gold"
               src={images.group4}
               headText="Community Connection"
               bodyText="Connect with like-minded individuals, share connections, and build a vibrant online community."

@@ -5,9 +5,13 @@ import num4 from "/assets/91.jpg";
 import arr from "/assets/arr.png";
 import arr2 from "/assets/arr2.png";
 import ban3 from "/assets/ban3.png";
+import card from "/assets/card.jfif";
+import card1 from "/assets/card1.jfif";
 import card2 from "/assets/card2.jfif";
 import card3 from "/assets/card3.jfif";
 import card4 from "/assets/card4.jfif";
+import card5 from "/assets/card5.jfif";
+import card6 from "/assets/card6.jfif";
 import dibest from "/assets/dibest.png";
 import ewallet from "/assets/ewallet.jpg";
 import fadi from "/assets/fadi.jpeg";
@@ -39,9 +43,13 @@ export default {
   arr,
   arr2,
   ban3,
+  card,
+  card1,
   card2,
   card3,
   card4,
+  card5,
+  card6,
   dibest,
   ewallet,
   fadi,
@@ -63,5 +71,5 @@ export default {
   property,
   vector,
   vector2,
-  shootingLight
+  shootingLight,
 };

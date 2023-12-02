@@ -7,7 +7,7 @@ const Banner = () => {
         <div className="flex flex-col space-y-6 items-center text-center w-4/5 text-white">
           <h1 className="text-[4rem] font-semibold">Welcome to DiBest Spot</h1>
           <p className="text-2xl leading-[1.6rem] mb-6">
-            Explore, Sign-up and Connect in the Cayman Islands and the Carribean
+            Explore, Sign-up and Connect in the Cayman Islands and the Caribbean
           </p>
           <Button className="p-2 px-8 bg-gold rounded-md">Start Now</Button>
         </div>
