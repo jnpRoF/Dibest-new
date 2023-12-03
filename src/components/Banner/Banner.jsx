@@ -9,7 +9,9 @@ const Banner = () => {
           <p className="text-2xl leading-[1.6rem] mb-6">
             Explore, Sign-up and Connect in the Cayman Islands and the Caribbean
           </p>
-          <Button className="p-2 px-8 bg-gold rounded-md">Start Now</Button>
+          <Button className="p-2 px-8 bg-gold rounded-md hover:opacity-90">
+            Start Now
+          </Button>
         </div>
       </div>
       <div className="flex justify-between p-7 px-20 bg-gold rounded-xl">

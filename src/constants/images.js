@@ -29,6 +29,7 @@ import logo from "/assets/logo.png";
 import logo2 from "/assets/logo2.png";
 import medicalIndustry from "/assets/medical-industry.jpg";
 import pexels from "/assets/pexels.jpg";
+import medic from "/assets/medic.jpg";
 import pexels2 from "/assets/pexels2.jpg";
 import property from "/assets/property.jpg";
 import vector from "/assets/vector.png";
@@ -45,6 +46,7 @@ export default {
   num,
   num2,
   num3,
+  medic,
   num4,
   arr,
   arr2,

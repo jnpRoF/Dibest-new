@@ -1,77 +1,78 @@
 import images from "../../constants/images";
 import Button from "../Button/Button";
+import "../../index.css"
 
 const Footer = () => {
   return (
     <div className="bg-cover bg-bottom bg-shootingLight">
       <div className="pt-24 h-full w-full bg-gold/80 px-12 text-white ">
         <div className="flex justify-between border-b-2 pb-16">
-          <div className="flex flex-col space-y-3">
+          <div className="flex flex-col space-y-3 items-center">
             <h3 className="font-semibold text-2xl">PLATFORM SERVICES</h3>
-            <a href="" className="text-xl">
+            <a href="" className="text-xl link">
               Digital Marketing
             </a>
-            <a href="" className="text-xl">
+            <a href="" className="text-xl link">
               Business Consulting
             </a>
-            <a href="" className="text-xl">
+            <a href="" className="text-xl link">
               Strategy Development
             </a>
-            <a href="" className="text-xl">
+            <a href="" className="text-xl link">
               Project Management
             </a>
-            <a href="" className="text-xl">
+            <a href="" className="text-xl link">
               PR & Media Advertising
             </a>
-            <a href="" className="text-xl">
+            <a href="" className="text-xl link">
               Our Brands
             </a>
-            <a href="" className="text-xl">
+            <a href="" className="text-xl link">
               Partners
             </a>
-            <a href="" className="text-xl">
+            <a href="" className="text-xl link">
               Vendors
             </a>
-            <a href="" className="text-xl">
+            <a href="" className="text-xl link">
               Medical Providers
             </a>
           </div>
-          <div className="flex flex-col space-y-3">
+          <div className="flex flex-col space-y-3 items-center">
             <h3 className="font-semibold text-2xl">PLATFORM LINKS</h3>
-            <a href="" className="text-xl">
+            <a href="" className="text-xl link">
               Media Releases
             </a>
-            <a href="" className="text-xl">
+            <a href="" className="text-xl link">
               Staff
             </a>
-            <a href="" className="text-xl">
+            <a href="" className="text-xl link">
               Affiliates
             </a>
-            <a href="" className="text-xl">
+            <a href="" className="text-xl link">
               Press Kit
             </a>
-            <a href="" className="text-xl">
+            <a href="" className="text-xl link">
               DiBest News
             </a>
-            <a href="" className="text-xl">
+            <a href="" className="text-xl link">
               Community Education
             </a>
-            <a href="" className="text-xl">
+            <a href="" className="text-xl link">
               FAQ
             </a>
-            <a href="" className="text-xl">
+            <a href="" className="text-xl link">
               Terms of Service
             </a>
-            <a href="" className="text-xl">
+            <a href="" className="text-xl link">
               Privacy Policy
             </a>
-            <a href="" className="text-xl">
+            <a href="" className="text-xl link">
               Contact Us
             </a>
-            <a href="" className="text-xl">
+            <a href="" className="text-xl link">
               Support
             </a>
-            <a href="" className="text-xl">
+            <a href="" className="text-xl link">
               Blog
             </a>
             <div className="flex space-x-3 h-[90px]">
@@ -87,27 +88,27 @@ const Footer = () => {
               />
             </div>
           </div>
-          <div className="flex flex-col space-y-3">
+          <div className="flex flex-col space-y-3 items-center">
             <h3 className="font-semibold text-2xl">MARKETPLACES</h3>
-            <a href="" className="text-xl">
+            <a href="" className="text-xl link">
               Restaurants
             </a>
-            <a href="" className="text-xl">
+            <a href="" className="text-xl link">
               OnDemand Services
             </a>
-            <a href="" className="text-xl">
+            <a href="" className="text-xl link">
               Property Rentals
             </a>
-            <a href="" className="text-xl">
+            <a href="" className="text-xl link">
               Egift
             </a>
-            <a href="" className="text-xl">
+            <a href="" className="text-xl link">
               Ewallets
             </a>
-            <a href="" className="text-xl">
+            <a href="" className="text-xl link">
               Caribbean Region
             </a>
-            <a href="" className="text-xl">
+            <a href="" className="text-xl link">
               Medical Services
             </a>
           </div>

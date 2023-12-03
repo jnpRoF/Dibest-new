@@ -2,6 +2,49 @@
 @tailwind components;
 @tailwind utilities;
 
-#pCard{
-    clip-path: circle(68.7% at 49% 31%);
+#pCard {
+  clip-path: circle(68.7% at 49% 31%);
 }
+
+.slick-slider,
+.slick-list,
+.slick-track {
+  height: 100%;
+}
+
+.slick-next,
+.slick-prev {
+  z-index: 10;
+}
+
+.slick-prev::before,
+.slick-next::before {
+  font-size: 50px;
+}
+
+.slick-next {
+  right: 95px;
+}
+
+.slick-prev {
+  left: 55px;
+}
+
+.slick-dots {
+  bottom: -68px;
+}
+
+.link::after {
+  content: "";
+  margin: auto;
+  width: 0%;
+  height: 2px;
+  background-color: #fff;
+  display: block;
+  transition: 0.5s;
+}
+
+.link:hover::after{
+  width: 100%;
+}
+

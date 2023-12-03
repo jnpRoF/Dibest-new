@@ -1,5 +1,5 @@
 import NavBar from "./components/NavBar/NavBar";
-import Slider from "./components/Slider/Slider";
+import SliderComp from "./components/SliderComp/SliderComp";
 import Features from "./components/Features/Features"
 import Banner2 from "./components/Banner2/Banner2";
 import Banner3 from "./components/Banner3/Banner3";
@@ -15,7 +15,7 @@ const App = () => {
   return (
     <>
       <NavBar />
-      <Slider />
+      <SliderComp />
       <Features />
       <Banner2 />
       <Banner3 />
@@ -24,8 +24,8 @@ const App = () => {
       <About />
       <Banner5 />
       <Pricing />
-      <Advert/>
-      <Footer/>
+      <Advert />
+      <Footer />
     </>
   );
 };

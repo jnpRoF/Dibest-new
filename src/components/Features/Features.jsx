@@ -4,7 +4,7 @@ import { RiHome4Fill } from "react-icons/ri";
 
 const Features = () => {
   return (
-    <div className="mb-20">
+    <div className="mb-20" id="features">
       <div className="mt-[15rem] mb-14 text-center">
         <h2 className="text-4xl font-semibold">Key Features</h2>
       </div>
