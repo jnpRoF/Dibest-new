@@ -1,10 +1,11 @@
 import images from "../../constants/images";
 import Button from "../Button/Button";
+import { Link } from "react-router-dom";
 
 
 const NavBar = () => {
   return (
-    <nav className="flex justify-center py-4 border">
+    <nav className="flex justify-center py-4 border fixed z-10 w-full bg-white top-0">
       <div className="flex mx-auto w-[90%] justify-between items-center">
         <img src={images.logo} alt="" />
         {/* <div className="flex space-x-2 border border-gray-500 rounded-md">
@@ -28,9 +29,9 @@ const NavBar = () => {
           <a className="hover:text-gray-300" href="#about">
             About
           </a>
-          <a className="hover:text-gray-300" href="#platform">
+          <Link className="hover:text-gray-300" to="platformvendor">
             Platform Vendors
-          </a>
+          </Link>
           <a className="hover:text-gray-300" href="#contact">
             Contact Us
           </a>

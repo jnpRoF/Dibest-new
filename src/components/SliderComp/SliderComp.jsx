@@ -1,14 +1,14 @@
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import "../../index.css"
 
 import images from "../../constants/images";
 import Banner from "../Banner/Banner";
+import "../../index.css";
 
 const SliderComp = () => {
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 500,
     slidesToShow: 1,

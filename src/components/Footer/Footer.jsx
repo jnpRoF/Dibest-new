@@ -2,10 +2,10 @@ import images from "../../constants/images";
 import Button from "../Button/Button";
 import "../../index.css";
 
-const Footer = () => {
+const Footer = ({footerColor}) => {
   return (
     <div className="bg-cover bg-bottom bg-shootingLight">
-      <div className="pt-24 h-full w-full bg-gold/80 px-12 text-white ">
+      <div className={`pt-24 h-full w-full ${footerColor} px-12 text-white`}>
         <div className="flex justify-between border-b-2 pb-16">
           <div className="flex flex-col space-y-3 items-center">
             <h3 className="font-semibold text-2xl">PLATFORM SERVICES</h3>

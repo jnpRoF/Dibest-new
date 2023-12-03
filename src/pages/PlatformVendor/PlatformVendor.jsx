@@ -1,16 +1,16 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
-import HeroSection2 from "../components/HeroSection2/HeroSection2";
-import SectionHead from "../components/SectionHead";
-import Search from "../components/Search";
-import Products from "../components/Products";
-import Pagination from "../components/Pagination";
-import Banner6 from "../components/Banner6/Banner6";
+import HeroSection2 from "../../components/HeroSection2/HeroSection2";
+import SectionHead from "../../components/SectionHead/SectionHead";
+import Search from "../../components/Search/Search";
+import Products from "../../components/Products/Products";
+import Pagination from "../../components/Pagination/Pagination";
+import Banner6 from "../../components/Banner6/Banner6";
+import Footer from "../../components/Footer/Footer";
 
 const PlatformVendor = () => {
   const [data, setData] = useState([]);
   const [ff, setff] = useState([]);
- 
 
   useEffect(() => {
     const fetchData = async () => {
@@ -29,18 +29,18 @@ const PlatformVendor = () => {
   }, []);
 
   const gp = (f) => {
-  setff(f);
-}
+    setff(f);
+  };
 
   return (
     <>
-      <HeroSection2/>
-      <SectionHead/>
+      <HeroSection2 />
+      <SectionHead />
       <Search data={data} gp={gp} />
-      <Products data={data} ff={ ff} />
-      <Pagination/>
-      <Banner6/>
-     
+      <Products data={data} ff={ff} />
+      <Pagination />
+      <Banner6 />
+      <Footer footerColor="bg-purple/80" />
     </>
   );
 };

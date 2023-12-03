@@ -1,4 +1,4 @@
-import EachProduct from "../components/EachProduct";
+import EachProduct from "../EachProduct/EachProduct";
 
 const Products = ({ data, ff }) => {
   console.log(ff, data);

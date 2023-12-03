@@ -1,5 +1,5 @@
-import images from "../constants/images";
-import Button from "../components/Button";
+import images from "../../constants/images";
+import Button from "../Button/Button";
 
 const HeroSection = () => {
   return (
@@ -18,7 +18,7 @@ const HeroSection = () => {
         </p>
         <p>Enroll as a vendor today and get more traffic to your shop!</p>
         <Button
-          className="rounded-xl bg-darkBlue font-semibold text-xl w-3/5 text-white px-5 py-3"
+          className="rounded-xl bg-purple font-semibold text-xl w-3/5 text-white px-5 py-3"
           children="Enroll Now"
         />
       </div>

@@ -1,6 +1,6 @@
-import Button from "../components/Button";
 import { useState } from "react";
-
+import Button from "../Button/Button";
+import "../../index.css"
 const Search = ({ data, gp }) => {
   const [searchTerm, setSearchTerm] = useState("");
 
@@ -22,11 +22,11 @@ const Search = ({ data, gp }) => {
         type="text"
         value={searchTerm}
         placeholder="Search name of vendor"
-        className="border px-6 w-[25%] rounded-xl"
+        className="inp border px-6 w-[35%] rounded-xl focus:outline-none"
         onChange={handleSearchChange}
       />
       <Button
-        className="rounded-2xl text-xl bg-[#A78236] font-bold text-white px-14 py-3"
+        className="rounded-lg text-xl bg-[#A78236] font-bold text-white px-14 py-2"
         children="Search"
         //  onClick={handleSearchChange}
       />

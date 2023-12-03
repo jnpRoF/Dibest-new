@@ -22,6 +22,7 @@ export default {
         demColor: "#0C8BE8",
         renColor: "#FF5D01",
         lightColor: "#F1F1F1",
+        
       },
     },
   },

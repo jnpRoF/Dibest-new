@@ -2,10 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+/* pricing card */
 #pCard {
   clip-path: circle(68.7% at 49% 31%);
 }
 
+/* slider buttons */
 .slick-slider,
 .slick-list,
 .slick-track {
@@ -14,26 +16,27 @@
 
 .slick-next,
 .slick-prev {
-  z-index: 10;
+  z-index: 5;
 }
 
 .slick-prev::before,
 .slick-next::before {
-  font-size: 50px;
+  font-size: 50px !important;
 }
 
 .slick-next {
-  right: 95px;
+  right: 95px !important;
 }
 
 .slick-prev {
-  left: 55px;
+  left: 55px !important;
 }
 
 .slick-dots {
   bottom: -68px;
 }
 
+/* footer links */
 .link::after {
   content: "";
   margin: auto;
@@ -44,7 +47,11 @@
   transition: 0.5s;
 }
 
-.link:hover::after{
+.link:hover::after {
   width: 100%;
 }
 
+/* input placeholder */
+.inp::placeholder {
+  font-style: italic;
+}

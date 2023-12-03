@@ -5,8 +5,8 @@ const SectionHead = () => {
   return (
     <div className="flex mt-20 mb-5">
       <div className="flex justify-end mx-auto w-4/5">
-        <div className="flex w-full flex-col space-y-2 md:w-3/5 md:flex-row justify-center md:justify-between">
-          <h2 className="font-bold text-2xl lg:text-4xl">Platform Vendors</h2>
+        <div className="flex w-full flex-col space-y-2 md:w-4/5 md:flex-row justify-center md:justify-between">
+          <h2 className="font-bold text-2xl ml-16 lg:text-5xl">Platform Vendors</h2>
           <div className="flex space-x-2 items-center">
             <IoIosFunnel />
             <span className="text-gold">ALL VENDORS</span>
