@@ -2,7 +2,6 @@ import images from "../../constants/images";
 import Button from "../Button/Button";
 
 
-
 const NavBar = () => {
   return (
     <nav className="flex justify-center py-4 border">
