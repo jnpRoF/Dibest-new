@@ -14,11 +14,11 @@ const Banner = () => {
       </div>
       <div className="flex justify-between p-7 px-20 bg-gold rounded-xl">
         <div className="text-white w-[33%] flex items-center text-3xl font-semibold">
-          Why DiBest Spot for the Carribean?
+          Why DiBest Spot for the Caribbean?
         </div>
         <div className="flex justify-between w-[60%]">
           <div className="bg-white w-[48%] h-52 py-6 space-y-3 flex flex-col items-center rounded-xl">
-            &#2194
+            🏝️
             <div className="flex-flex-col">
               <h2 className="font-semibold text-lg">Cayman Islands</h2>
             </div>
@@ -28,13 +28,13 @@ const Banner = () => {
             </p>
           </div>
           <div className="bg-white w-[48%] h-52 py-8 space-y-3 flex flex-col items-center rounded-xl">
-            &#2194
+            🌺
             <div className="flex-flex-col">
               <h2 className="font-semibold text-lg">Carribean Region</h2>
             </div>
             <p className="text-center text-base">
               Connect with a diverse and vibrant community from across the
-              Carribean
+              Caribbean
             </p>
           </div>
         </div>
