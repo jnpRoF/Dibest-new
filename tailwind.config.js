@@ -9,6 +9,9 @@ export default {
       xl: "1440px",
     },
     extend: {
+      backgroundImage: {
+        shootingLight: "url(/assets/shooting light.jpg)",
+      },
       colors: {
         gold: "#A78236",
         purple: "#28285B",
