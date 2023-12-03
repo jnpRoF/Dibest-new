@@ -4,7 +4,7 @@ const Pricing = () => {
   return (
     <>
       <div className="flex flex-col items-center justify-center bg-purple space-y-4 py-8 text-white">
-        <h4 className="text-3xl font-semibold">DiBest Spot Pricng</h4>
+        <h4 className="text-3xl font-semibold">DiBest Spot Pricing</h4>
       </div>
       <div className="bg-purple py-4">
         <div className="mx-auto flex w-1/2 justify-between">

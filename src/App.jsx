@@ -9,6 +9,7 @@ import About from "./components/About/About";
 import Banner5 from "./components/Banner5/Banner5";
 import Pricing from "./components/Pricing/Pricing";
 import Footer from "./components/Footer/Footer";
+import Advert from "./components/Advert/Advert";
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
       <About />
       <Banner5 />
       <Pricing />
+      <Advert/>
       <Footer/>
     </>
   );

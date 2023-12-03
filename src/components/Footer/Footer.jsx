@@ -1,3 +1,4 @@
+import images from "../../constants/images";
 import Button from "../Button/Button";
 
 const Footer = () => {
@@ -73,6 +74,18 @@ const Footer = () => {
             <a href="" className="text-xl">
               Blog
             </a>
+            <div className="flex space-x-3 h-[90px]">
+              <img
+                src={images.playstore1}
+                alt=""
+                className="h-full"
+              />
+              <img
+                src={images.playstore2}
+                alt=""
+                className="h-full"
+              />
+            </div>
           </div>
           <div className="flex flex-col space-y-3">
             <h3 className="font-semibold text-2xl">MARKETPLACES</h3>

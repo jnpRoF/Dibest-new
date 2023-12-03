@@ -33,6 +33,12 @@ import pexels2 from "/assets/pexels2.jpg";
 import property from "/assets/property.jpg";
 import vector from "/assets/vector.png";
 import vector2 from "/assets/vector2.png";
+import black from "/assets/black.png";
+import christmas from "/assets/christmas.png";
+import open from "/assets/open.png";
+import playstore1 from "/assets/playstore1.svg";
+import playstore2 from "/assets/playstore2.svg";
+import shoplogo from "/assets/shoplogo.png";
 import shootingLight from "/assets/shooting light.jpg";
 
 export default {
@@ -51,6 +57,12 @@ export default {
   card5,
   card6,
   dibest,
+  black,
+  christmas,
+  open,
+  playstore1,
+  playstore2,
+  shoplogo,
   ewallet,
   fadi,
   fadi2,
