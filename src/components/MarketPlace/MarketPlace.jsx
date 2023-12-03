@@ -7,9 +7,25 @@ const MarketPlace = () => {
       <div className="flex flex-col items-center justify-center bg-purple space-y-4 py-8 text-white">
         <h4 className="text-3xl font-semibold">DiBest Spot Marketplaces</h4>
         <div className="flex space-x-3">
-          <Button className="bg-restaurantsColor p-2 px-8">Restaurants</Button>
+          <Button className="bg-restaurantsColor p-2 px-8">
+            <a
+              href="http://local.dibestspot.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Restaurants
+            </a>
+          </Button>
           <Button className="bg-demColor p-2 px-8">OnDemand Services</Button>
-          <Button className="bg-renColor p-2 px-8">Property Rental</Button>
+          <Button className="bg-renColor p-2 px-8">
+            <a
+              href="http://property.dibestspot.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Property Rental
+            </a>
+          </Button>
           <Button className="bg-darkPink p-2 px-8">Ecommerce</Button>
           <Button className="bg-ewalletColor p-2 px-8">Ewallet</Button>
           <Button className="bg-gold p-2 px-8">Egift</Button>

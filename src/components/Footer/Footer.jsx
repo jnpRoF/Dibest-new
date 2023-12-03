@@ -1,6 +1,6 @@
 import images from "../../constants/images";
 import Button from "../Button/Button";
-import "../../index.css"
+import "../../index.css";
 
 const Footer = () => {
   return (
@@ -9,22 +9,25 @@ const Footer = () => {
         <div className="flex justify-between border-b-2 pb-16">
           <div className="flex flex-col space-y-3 items-center">
             <h3 className="font-semibold text-2xl">PLATFORM SERVICES</h3>
-            <a href="" className="text-xl link">
+            <a href="https://jtpmoagency.com" className="text-xl link">
               Digital Marketing
             </a>
             <a href="" className="text-xl link">
               Business Consulting
             </a>
-            <a href="" className="text-xl link">
+            <a
+              href="https://7figurestrategyadvisors.com"
+              className="text-xl link"
+            >
               Strategy Development
             </a>
-            <a href="" className="text-xl link">
+            <a href="https://mywarmembrace.com" className="text-xl link">
               Project Management
             </a>
             <a href="" className="text-xl link">
               PR & Media Advertising
             </a>
-            <a href="" className="text-xl link">
+            <a href="https://jtpmo.com/brands" className="text-xl link">
               Our Brands
             </a>
             <a href="" className="text-xl link">
@@ -76,27 +79,29 @@ const Footer = () => {
               Blog
             </a>
             <div className="flex space-x-3 h-[90px]">
-              <img
-                src={images.playstore1}
-                alt=""
-                className="h-full"
-              />
-              <img
-                src={images.playstore2}
-                alt=""
-                className="h-full"
-              />
+              <img src={images.playstore1} alt="" className="h-full" />
+              <img src={images.playstore2} alt="" className="h-full" />
             </div>
           </div>
           <div className="flex flex-col space-y-3 items-center">
             <h3 className="font-semibold text-2xl">MARKETPLACES</h3>
-            <a href="" className="text-xl link">
+            <a
+              href="http://local.dibestspot.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-xl link"
+            >
               Restaurants
             </a>
             <a href="" className="text-xl link">
               OnDemand Services
             </a>
-            <a href="" className="text-xl link">
+            <a
+              href="https://property.dibestspot.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-xl link"
+            >
               Property Rentals
             </a>
             <a href="" className="text-xl link">
@@ -134,10 +139,15 @@ const Footer = () => {
             </div>
             <div className="flex flex-col space-y-3">
               <h3 className="font-semibold text-2xl">Contact Us:</h3>
-              <p>
+              <p className="font-semibold">
                 Have questions or suggestions? We'd love to hear from you!
                 Contact our dedicated support team at
               </p>
+              <p className="font-semibold">658-223 SHAMROCK ROAD GT</p>
+              <p className="font-semibold">PO BOX 1912 GT</p>
+              <p className="font-semibold">GRAND CANYON</p>
+              <p className="font-semibold">KY11110</p>
+              <p className="font-semibold">Cayman Islands</p>
             </div>
           </div>
         </div>

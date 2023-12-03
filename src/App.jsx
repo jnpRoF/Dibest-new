@@ -10,6 +10,7 @@ import Banner5 from "./components/Banner5/Banner5";
 import Pricing from "./components/Pricing/Pricing";
 import Footer from "./components/Footer/Footer";
 import Advert from "./components/Advert/Advert";
+import Form from "./components/Form/Form";
 
 const App = () => {
   return (
@@ -26,6 +27,7 @@ const App = () => {
       <Pricing />
       <Advert />
       <Footer />
+      {/* <Form/> */}
     </>
   );
 };
