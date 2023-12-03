@@ -1,9 +1,14 @@
 import images from "../../constants/images";
 import Button from "../Button/Button";
 import { Link } from "react-router-dom";
+import { useState } from "react";
 
+const NavBar = ({ getFormState, display }) => {
+  const handleFormDisplay = () => {
+    console.log("true");
+    getFormState(!display);
+  };
 
-const NavBar = () => {
   return (
     <nav className="flex justify-center py-4 border fixed z-10 w-full bg-white top-0">
       <div className="flex mx-auto w-[90%] justify-between items-center">
@@ -37,8 +42,11 @@ const NavBar = () => {
           </a>
         </div>
         <div className="flex space-x-3">
-          <Button className="p-2 px-5 bg-purple text-white rounded-md text-sm hover:opacity-90">
-            Enrol As Vendor
+          <Button
+            className="p-2 px-5 bg-purple text-white rounded-md text-sm hover:opacity-90"
+            onClick={handleFormDisplay}
+          >
+            Enroll As Vendor
           </Button>
           <Button className="p-2 px-8 bg-gold text-white rounded-md text-sm hover:opacity-90">
             Login
