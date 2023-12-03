@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+#pCard{
+    clip-path: circle(68.7% at 49% 31%);
+}

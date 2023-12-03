@@ -2,7 +2,7 @@ import Button from "../Button/Button";
 
 const Footer = () => {
   return (
-    <div className="mt-14 bg-cover bg-bottom bg-shootingLight">
+    <div className="bg-cover bg-bottom bg-shootingLight">
       <div className="pt-24 h-full w-full bg-gold/80 px-12 text-white ">
         <div className="flex justify-between border-b-2 pb-16">
           <div className="flex flex-col space-y-3">
