@@ -7,6 +7,8 @@ import MarketPlace from "./components/MarketPlace/MarketPlace";
 import Banner4 from "./components/Banner4/Banner4";
 import About from "./components/About/About";
 import Banner5 from "./components/Banner5/Banner5";
+import Pricing from "./components/Pricing/Pricing";
+import Footer from "./components/Footer/Footer";
 
 const App = () => {
   return (
@@ -19,7 +21,9 @@ const App = () => {
       <MarketPlace />
       <Banner4 />
       <About />
-      <Banner5/>
+      <Banner5 />
+      <Pricing />
+      <Footer/>
     </>
   );
 };

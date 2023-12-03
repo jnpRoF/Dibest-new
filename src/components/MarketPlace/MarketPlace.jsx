@@ -5,7 +5,7 @@ const MarketPlace = () => {
   return (
     <>
       <div className="flex flex-col items-center justify-center bg-purple space-y-4 py-8 text-white">
-        <h4 className="text-2xl font-semibold">DiBest Spot Marketplaces</h4>
+        <h4 className="text-3xl font-semibold">DiBest Spot Marketplaces</h4>
         <div className="flex space-x-3">
           <Button className="bg-restaurantsColor p-2 px-8">Restaurants</Button>
           <Button className="bg-demColor p-2 px-8">OnDemand Services</Button>
