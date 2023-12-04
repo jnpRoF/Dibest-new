@@ -143,7 +143,7 @@ const Footer = ({ footerColor }) => {
                 </div>
               </form>
             </div>
-            <div className="flex flex-col space-y-3">
+            <div className="flex flex-col space-y-5">
               <h3 className="font-semibold text-2xl">Contact Us:</h3>
               <p className="font-semibold">
                 Have questions or suggestions? We'd love to hear from you!
@@ -152,11 +152,14 @@ const Footer = ({ footerColor }) => {
                   info@dibestspot.com
                 </a>
               </p>
-              <p className="font-semibold">658-223 SHAMROCK ROAD GT</p>
-              <p className="font-semibold">PO BOX 1912 GT</p>
-              <p className="font-semibold">GRAND CANYON</p>
-              <p className="font-semibold">KY11110</p>
-              <p className="font-semibold">Cayman Islands</p>
+              <div className="flex flex-col space-y-3">
+                <p className="font-semibold">MAILING ADDRESS:</p>
+                <p className="font-semibold">658-223 SHAMROCK ROAD GT</p>
+                <p className="font-semibold">PO BOX 1912 GT</p>
+                <p className="font-semibold">GRAND CANYON</p>
+                <p className="font-semibold">KY11110</p>
+                <p className="font-semibold">Cayman Islands</p>
+              </div>
             </div>
           </div>
         </div>
