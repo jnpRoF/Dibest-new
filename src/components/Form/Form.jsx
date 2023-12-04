@@ -1,12 +1,14 @@
 import images from "../../constants/images";
+import Button from "../Button/Button";
 
 const Form = ({ display }) => {
   return (
     <div
-      className={`mx-auto w-4/5 py-8 px-6 bg-white rounded-lg shadow-lg fixed top-24 z-20 left-[10%] ${
-        display === true ? "block" : "hidden"
+      className={`mx-auto w-4/5 py-8 px-6 bg-white rounded-lg shadow-lg absolute border border-gold top-24 z-20 left-[10%] ${
+        display === true ? "inline-block" : "hidden"
       }`}
     >
+      {/* <div></div> */}
       <form action="" className="flex flex-col space-y-4">
         <div className="flex flex-col space-y-3 justify-center items-center">
           <img src={images.logo} alt="" className="w-[90px] h-[30px]" />
@@ -22,7 +24,7 @@ const Form = ({ display }) => {
               name=""
               id="name"
               placeholder="Name"
-              className="border rounded-md p-2 focus:outline-none"
+              className="border border-gold rounded-md p-2 focus:outline-none"
             />
           </div>
           <div className="flex flex-col space-y-2">
@@ -34,7 +36,7 @@ const Form = ({ display }) => {
               name=""
               id="email"
               placeholder="Email address"
-              className="border rounded-md p-2 focus:outline-none"
+              className="border border-gold rounded-md p-2 focus:outline-none"
             />
           </div>
           <div className="flex flex-col space-y-2">
@@ -46,7 +48,7 @@ const Form = ({ display }) => {
               name=""
               id=""
               placeholder="Mobile Number"
-              className="border rounded-md p-2 focus:outline-none"
+              className="border border-gold rounded-md p-2 focus:outline-none"
             />
           </div>
           <div className="flex flex-col space-y-2">
@@ -58,7 +60,7 @@ const Form = ({ display }) => {
               name=""
               id=""
               placeholder="Job Title"
-              className="border rounded-md p-2 focus:outline-none"
+              className="border border-gold rounded-md p-2 focus:outline-none"
             />
           </div>
           <div className="flex flex-col space-y-2">
@@ -70,7 +72,7 @@ const Form = ({ display }) => {
               name=""
               id=""
               placeholder="Company Name"
-              className="border rounded-md p-2 focus:outline-none"
+              className="border border-gold rounded-md p-2 focus:outline-none"
             />
           </div>
           <div className="flex flex-col space-y-2">
@@ -82,14 +84,18 @@ const Form = ({ display }) => {
               name=""
               id=""
               placeholder="Address"
-              className="border rounded-md p-2 focus:outline-none"
+              className="border border-gold rounded-md p-2 focus:outline-none"
             />
           </div>
           <div className="flex flex-col space-y-2">
             <label htmlFor="" className="font-semibold">
               Which marketplace are you interested in joining?
             </label>
-            <select name="" id="" className="border rounded-md p-2">
+            <select
+              name=""
+              id=""
+              className="border border-golds rounded-md p-2 focus:outline-none"
+            >
               <option value="">Restaurants</option>
               <option value="">Property & Rentals</option>
               <option value="">Ecommerce</option>
@@ -102,7 +108,7 @@ const Form = ({ display }) => {
             </label>
             <textarea
               name=""
-              className="border p-2 focus:outline-none"
+              className="border border-gold p-2 focus:outline-none"
               cols="30"
               rows="3"
             ></textarea>
@@ -111,7 +117,11 @@ const Form = ({ display }) => {
             <label htmlFor="" className="font-semibold">
               How did you hear about the platform?
             </label>
-            <select name="" id="" className="border rounded-md p-2">
+            <select
+              name=""
+              id=""
+              className="border border-gold rounded-md p-2 focus:outline-none"
+            >
               <option value="">Online Search</option>
               <option value="">Social media</option>
               <option value="">Friend or family referral</option>
@@ -131,9 +141,12 @@ const Form = ({ display }) => {
               name=""
               id=""
               placeholder="please specify"
-              className="border-b pt-3 px-3 focus:outline-none"
+              className="border-b border-gold pt-3 px-3 focus:outline-none"
             />
           </div>
+          <Button className="w-4/5 rounded-md p-2 bg-purple mx-auto mt-6">
+            Submit
+          </Button>
         </div>
       </form>
     </div>

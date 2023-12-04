@@ -93,7 +93,10 @@ const Footer = ({ footerColor }) => {
             >
               Restaurants
             </a>
-            <a href="" className="text-xl link">
+            <a
+              href="https://ondemandadmin.dibestspot.com"
+              className="text-xl link"
+            >
               OnDemand Services
             </a>
             <a
@@ -107,7 +110,10 @@ const Footer = ({ footerColor }) => {
             <a href="" className="text-xl link">
               Egift
             </a>
-            <a href="" className="text-xl link">
+            <a
+              href="https://ewalletadmin.dibestspot.com"
+              className="text-xl link"
+            >
               Ewallets
             </a>
             <a href="" className="text-xl link">
@@ -121,15 +127,15 @@ const Footer = ({ footerColor }) => {
             <div className="flex flex-col space-y-3">
               <p>
                 Sign up to get the latest releases and freebies! Less than 2
-                emails per month - only the good stuff. We hate spam too{" "}
+                emails per month - only the good stuff. We hate spam too
               </p>
               <form action="">
-                <div className="flex">
+                <div className="flex flex-col sm:flex-row">
                   <input
                     type="email"
                     name=""
                     placeholder="Email address"
-                    className="bg-transparent p-2 focus:outline-none border"
+                    className="bg-transparent p-2 focus:outline-none border email_input"
                   />
                   <Button className="bg-white py-2 px-7 text-black hover:text-white hover:bg-transparent hover:border duration-1000">
                     Submit
@@ -141,7 +147,10 @@ const Footer = ({ footerColor }) => {
               <h3 className="font-semibold text-2xl">Contact Us:</h3>
               <p className="font-semibold">
                 Have questions or suggestions? We'd love to hear from you!
-                Contact our dedicated support team at
+                Contact our dedicated support team at{" "}
+                <a href="mailto:info@dibestspot.com" className="underline">
+                  info@dibestspot.com
+                </a>
               </p>
               <p className="font-semibold">658-223 SHAMROCK ROAD GT</p>
               <p className="font-semibold">PO BOX 1912 GT</p>

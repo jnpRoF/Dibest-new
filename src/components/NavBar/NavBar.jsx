@@ -5,6 +5,7 @@ import Button from "../Button/Button";
 
 const NavBar = ({ getFormState, display }) => {
   const handleFormDisplay = () => {
+    console.log("clik");
     getFormState(!display);
   };
 
@@ -17,7 +18,9 @@ const NavBar = ({ getFormState, display }) => {
   return (
     <nav className="flex justify-center py-4 border fixed z-10 w-full bg-white top-0">
       <div className="flex mx-auto w-[90%] justify-between items-center lg:w-[95%]">
-        <img src={images.logo} alt="" />
+        <Link to="/">
+          <img src={images.logo} alt="" />
+        </Link>
         {/* <div className="flex space-x-2 border border-gray-500 rounded-md">
           <input
             type="search"
@@ -27,9 +30,9 @@ const NavBar = ({ getFormState, display }) => {
           />
         </div> */}
         <div className="hidden lg:flex space-x-7">
-          <a className="hover:text-gray-300" href="#">
+          <Link className="hover:text-gray-300" to="/">
             Home
-          </a>
+          </Link>
           <a className="hover:text-gray-300" href="#features">
             Features
           </a>
@@ -64,12 +67,12 @@ const NavBar = ({ getFormState, display }) => {
             isMenuOpen === false ? "" : "flex"
           } ${isMenuOpen === false ? "hidden" : ""}`}
         >
-          <a
+          <Link
             className="hover:border border-gold rounded-full p-2 px-8"
-            href="#"
+            to="/"
           >
             Home
-          </a>
+          </Link>
           <a
             className="hover:border border-gold rounded-full p-2 px-8"
             href="#features"
@@ -100,10 +103,19 @@ const NavBar = ({ getFormState, display }) => {
           >
             Contact Us
           </a>
+          <Button
+            className="p-2 px-5 bg-purple text-white rounded-md text-sm hover:bg-transparent hover:border hover:border-gold hover:text-black"
+            onClick={handleFormDisplay}
+          >
+            Enroll As Vendor
+          </Button>
+          <Button className="p-2 px-8 bg-gold text-white rounded-md text-sm hover:opacity-90">
+            Login
+          </Button>
         </div>
         <div className="space-x-3 hidden lg:flex">
           <Button
-            className="p-2 px-5 bg-purple text-white rounded-md text-sm hover:opacity-90"
+            className="p-2 px-5 bg-purple text-white rounded-md text-sm hover:bg-transparent hover:border hover:border-gold hover:text-black"
             onClick={handleFormDisplay}
           >
             Enroll As Vendor

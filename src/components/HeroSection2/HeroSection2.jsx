@@ -20,6 +20,7 @@ const HeroSection = () => {
         <Button
           className="rounded-xl bg-purple font-semibold text-xl w-3/5 text-white px-5 py-3"
           children="Enroll Now"
+          onClick={handleFormDisplay}
         />
       </div>
       <div className="hidden lg:block w-[45%] relative">

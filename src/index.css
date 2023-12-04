@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+#root {
+  width: 100%;
+}
+
 /* pricing card */
 #pCard {
   clip-path: circle(68.7% at 49% 31%);
@@ -56,6 +60,10 @@
 /* input placeholder */
 .inp::placeholder {
   font-style: italic;
+}
+
+.email_input::placeholder {
+  color: #fff;
 }
 
 .active {

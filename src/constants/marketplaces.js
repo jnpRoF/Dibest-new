@@ -50,7 +50,7 @@ const marketplaces = [
   },
   {
     id: 8,
-    headText: "Medicals",
+    headText: "Medical",
     bodyText:
       "Empower Your Wellness Journey: Are you ready to experience a new standard of healthcare and revolutionize the way you access medical services? Then embark on a journey towards personalized, convenient, and top-notch healthcare. Discover a world where your well-being is top priority. Sign Up Now as a DiBest Member for FREE! Take the first step toward a healthier, happier you. Our platform is designed to make quality healthcare accessible to everyone.",
     btnColor: "bg-amber-500",
