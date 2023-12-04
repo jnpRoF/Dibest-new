@@ -1,15 +1,14 @@
-import {useState} from "react"
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import images from "../../constants/images";
 import Button from "../Button/Button";
-// import "../../index.css";
 
 const NavBar = ({ getFormState, display }) => {
   const handleFormDisplay = () => {
     getFormState(!display);
   };
 
-   const [isMenuOpen, setMenuOpen] = useState(false);
+  const [isMenuOpen, setMenuOpen] = useState(false);
 
   const onMenuClick = () => {
     setMenuOpen(!isMenuOpen);
@@ -17,7 +16,7 @@ const NavBar = ({ getFormState, display }) => {
 
   return (
     <nav className="flex justify-center py-4 border fixed z-10 w-full bg-white top-0">
-      <div className="flex mx-auto w-[90%] justify-between items-center">
+      <div className="flex mx-auto w-[90%] justify-between items-center lg:w-[95%]">
         <img src={images.logo} alt="" />
         {/* <div className="flex space-x-2 border border-gray-500 rounded-md">
           <input
@@ -55,9 +54,9 @@ const NavBar = ({ getFormState, display }) => {
           }`}
           onClick={onMenuClick}
         >
-          <span class="hamburger-top"></span>
-          <span class="hamburger-middle"></span>
-          <span class="hamburger-bottom"></span>
+          <span className="hamburger-top"></span>
+          <span className="hamburger-middle"></span>
+          <span className="hamburger-bottom"></span>
         </button>
         <div
           id="menu"

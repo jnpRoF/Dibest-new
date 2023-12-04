@@ -1,7 +1,6 @@
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
 import images from "../../constants/images";
 import Banner from "../Banner/Banner";
 import "../../index.css";
@@ -14,7 +13,7 @@ const SliderComp = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     infinite: true,
-    autoplay: true,
+    autoplay: false,
     autoplaySpeed: 1000,
   };
   return (

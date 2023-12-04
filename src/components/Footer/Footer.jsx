@@ -2,12 +2,12 @@ import images from "../../constants/images";
 import Button from "../Button/Button";
 import "../../index.css";
 
-const Footer = ({footerColor}) => {
+const Footer = ({ footerColor }) => {
   return (
     <div className="bg-cover bg-bottom bg-shootingLight">
       <div className={`pt-24 h-full w-full ${footerColor} px-12 text-white`}>
-        <div className="flex justify-between border-b-2 pb-16">
-          <div className="flex flex-col space-y-3 items-center">
+        <div className="flex justify-between border-b-2 pb-16 flex-wrap space-x-3  flex-col sm:flex-row">
+          <div className="flex flex-col space-y-3 items-center my-4">
             <h3 className="font-semibold text-2xl">PLATFORM SERVICES</h3>
             <a href="https://jtpmoagency.com" className="text-xl link">
               Digital Marketing
@@ -40,7 +40,7 @@ const Footer = ({footerColor}) => {
               Medical Providers
             </a>
           </div>
-          <div className="flex flex-col space-y-3 items-center">
+          <div className="flex flex-col space-y-3 items-center my-4">
             <h3 className="font-semibold text-2xl">PLATFORM LINKS</h3>
             <a href="" className="text-xl link">
               Media Releases
@@ -83,7 +83,7 @@ const Footer = ({footerColor}) => {
               <img src={images.playstore2} alt="" className="h-full" />
             </div>
           </div>
-          <div className="flex flex-col space-y-3 items-center">
+          <div className="flex flex-col space-y-3 items-center my-4">
             <h3 className="font-semibold text-2xl">MARKETPLACES</h3>
             <a
               href="http://local.dibestspot.com"
@@ -117,7 +117,7 @@ const Footer = ({footerColor}) => {
               Medical Services
             </a>
           </div>
-          <div className="flex flex-col w-[330px] space-y-14">
+          <div className="flex flex-col w-full lg:w-[330px] space-y-14 my-4">
             <div className="flex flex-col space-y-3">
               <p>
                 Sign up to get the latest releases and freebies! Less than 2

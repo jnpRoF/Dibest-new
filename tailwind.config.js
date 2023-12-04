@@ -6,6 +6,7 @@ export default {
       sm: "480px",
       md: "768px",
       lg: "976px",
+      lg2: "1200px",
       xl: "1440px",
     },
     extend: {
@@ -22,7 +23,6 @@ export default {
         demColor: "#0C8BE8",
         renColor: "#FF5D01",
         lightColor: "#F1F1F1",
-        
       },
     },
   },

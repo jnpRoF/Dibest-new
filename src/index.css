@@ -19,17 +19,19 @@
   z-index: 5;
 }
 
-.slick-prev::before,
-.slick-next::before {
-  font-size: 50px !important;
-}
-
-.slick-next {
-  right: 95px !important;
-}
-
 .slick-prev {
-  left: 55px !important;
+  left: 7% !important;
+  top: 55% !important;
+}
+.slick-next {
+  right: 10% !important;
+  top: 55% !important;
+}
+.slick-prev::before {
+  font-size: 37px !important;
+}
+.slick-next::before {
+  font-size: 37px !important;
 }
 
 .slick-dots {
@@ -57,51 +59,69 @@
 }
 
 /* Hamburger Menu */
-.hamburger{
-    cursor: pointer;
-    width: 24px;
-    height: 24px;
-    transition: all .25s;
-    position: relative;
+.hamburger {
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  transition: all 0.25s;
+  position: relative;
 }
 
 .hamburger-top,
 .hamburger-middle,
-.hamburger-bottom{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 24px;
-    height: 2px;
-    background: #000;
-    transform: rotate(0);
-    transition: all .5s
-    ;
+.hamburger-bottom {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 24px;
+  height: 2px;
+  background: #000;
+  transform: rotate(0);
+  transition: all 0.5s;
 }
 
-.hamburger-middle{
-    transform: translateY(7px);
+.hamburger-middle {
+  transform: translateY(7px);
 }
-.hamburger-bottom{
-    transform: translateY(14px);
-}
-
-.open{
-    transform: rotate(90deg);
-    transform: translateY(0px);
+.hamburger-bottom {
+  transform: translateY(14px);
 }
 
-.open .hamburger-top{
-    transform: rotate(45deg) translateY(6px) translate(6px);
+.open {
+  transform: rotate(90deg);
+  transform: translateY(0px);
 }
 
-.open .hamburger-middle{
-   display: none;
+.open .hamburger-top {
+  transform: rotate(45deg) translateY(6px) translate(6px);
 }
 
-.open .hamburger-bottom{
-    transform: rotate(-45deg) translateY(6px) translate(-6px);
+.open .hamburger-middle {
+  display: none;
+}
+
+.open .hamburger-bottom {
+  transform: rotate(-45deg) translateY(6px) translate(-6px);
 }
 
 /* Media Query */
+@media screen and (min-width: 976px) {
+  .slick-prev::before,
+  .slick-next::before {
+    font-size: 50px !important;
+  }
 
+  .slick-next {
+    right: 95px !important;
+  }
+
+  .slick-prev {
+    left: 55px !important;
+  }
+}
+
+@media screen and (max-width: 976px) {
+  .slick-slide > div {
+    height: 85%;
+  }
+}

@@ -1,12 +1,15 @@
 import Button from "../Button/Button";
+import "../../index.css";
 
 const Banner = () => {
   return (
-    <div className="flex flex-col justify-between h-[87%] mx-auto w-[67%] absolute top-0 right-[17%] top-[35%] space-y-10">
+    <div className="flex flex-col justify-between h-[87%] mx-auto w-[75%] right-[13%]  absolute top-[35%] space-y-10 lg:w-[67%] lg:right-[17%] lg2:top-[37%]">
       <div className="flex justify-center w-full">
         <div className="flex flex-col space-y-6 items-center text-center w-4/5 text-white">
-          <h1 className="text-[4rem] font-semibold">Welcome to DiBest Spot</h1>
-          <p className="text-2xl leading-[1.6rem] mb-6">
+          <h1 className="text-[2rem] font-semibold lg:text-[3rem] lg2:text-[4rem]">
+            Welcome to DiBest Spot
+          </h1>
+          <p className="text-[1.2rem] leading-[1.6rem] mb-6 lg:text-2xl">
             Explore, Sign-up and Connect in the Cayman Islands and the Caribbean
           </p>
           <Button className="p-2 px-8 bg-gold rounded-md hover:opacity-90">
@@ -14,12 +17,14 @@ const Banner = () => {
           </Button>
         </div>
       </div>
-      <div className="flex justify-between p-7 px-20 bg-gold rounded-xl">
-        <div className="text-white w-[33%] flex items-center text-3xl font-semibold">
-          Why DiBest Spot for the Caribbean?
+      <div className="flex flex-col space-y-5 justify-between p-7 lg:px-14 bg-gold rounded-xl lg:flex-row lg:items-center lg:space-y-0 lg:space-x-3">
+        <div className="text-white flex justify-center font-semibold text-[1.375rem] lg:flex-row lg:w-[33%] lg:text-2xl lg2:text-3xl">
+          <span className="text-center">
+            Why DiBest Spot for the Caribbean?
+          </span>
         </div>
-        <div className="flex justify-between w-[60%]">
-          <div className="bg-white w-[48%] h-52 py-6 space-y-3 flex flex-col items-center rounded-xl">
+        <div className="flex justify-between flex-col space-y-3 lg:w-[80%] lg:flex-row lg:space-y-0">
+          <div className="bg-white py-6 px-3 space-y-3 flex flex-col items-center rounded-xl lg:w-[48%] xl:h-52">
             🏝️
             <div className="flex-flex-col">
               <h2 className="font-semibold text-lg">Cayman Islands</h2>
@@ -29,7 +34,7 @@ const Banner = () => {
               Cayman Islands in mind
             </p>
           </div>
-          <div className="bg-white w-[48%] h-52 py-8 space-y-3 flex flex-col items-center rounded-xl">
+          <div className="bg-white py-8 space-y-3 flex flex-col items-center rounded-xl lg:w-[48%] xl:h-52">
             🌺
             <div className="flex-flex-col">
               <h2 className="font-semibold text-lg">Carribean Region</h2>
