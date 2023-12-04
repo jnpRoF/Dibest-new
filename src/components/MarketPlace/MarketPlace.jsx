@@ -1,7 +1,25 @@
 import Button from "../Button/Button";
 import MarketPlaceCard from "../MarketPlaceCard/MarketPlaceCard";
+import marketplaces from "../../constants/marketplaces";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import { useState } from "react";
+import "../../index.css";
 
 const MarketPlace = () => {
+  console.log(marketplaces);
+  const [activeFaceId, setActiveFaceId] = useState(1);
+
+  const handleButtonClick = (id) => {
+    setActiveFaceId(id);
+  };
+
+  const settings = {
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    infinite: true,
+  };
   return (
     <>
       <div className="flex flex-col items-center justify-center bg-purple space-y-4 py-8 text-white">
@@ -9,6 +27,21 @@ const MarketPlace = () => {
           DiBest Spot Marketplaces
         </h4>
         <div className="flex flex-wrap px-4 lg:space-x-3 justify-center lg:justify-between">
+          {/* {marketplaces.map((eachMarketPlace) => {
+            return (
+              <Button
+                className={`bg-darkPink p-2 px-8 m-2 ${
+                  activeFaceId === eachMarketPlace.id ? "active" : ""
+                }`}
+                key={eachMarketPlace.id}
+                onClick={() => {
+                  handleButtonClick(eachMarketPlace.id);
+                }}
+              >
+                {eachMarketPlace.headText}
+              </Button>
+            );
+          })} */}
           <Button className="bg-restaurantsColor p-2 px-8 m-2">
             <a
               href="http://local.dibestspot.com"
@@ -40,6 +73,18 @@ const MarketPlace = () => {
         </div>
       </div>
       <div className="flex space-x-2 p-5 overflow-x-hidden">
+        {/* <Slider {...settings}>
+          {marketplaces.map((eachMarketPlace) => {
+            return (
+              <MarketPlaceCard
+                key={eachMarketPlace.id}
+                headText={eachMarketPlace.headText}
+                bodyText={eachMarketPlace.bodyText}
+                btnColor={eachMarketPlace.btnColor}
+              />
+            );
+          })}
+        </Slider> */}
         <MarketPlaceCard
           headText="Restaurants"
           bodyText="Savor Success and Boost Your Restaurant's Visibility: Enroll as a Vendor in the Ultimate Restaurant Marketplace!Are you a culinary maestro looking to tantalize taste buds or a food enthusiast eager to explore the finest dining experiences? Welcome to our Restaurant Marketplace, where flavors, innovation, and community converge. Whether you're a restaurant owner or a foodie on the hunt for the next delectable dish, this is your gastronomic haven."
