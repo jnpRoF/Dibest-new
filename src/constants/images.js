@@ -40,7 +40,7 @@ import open from "/assets/open.png";
 import playstore1 from "/assets/playstore1.svg";
 import playstore2 from "/assets/playstore2.svg";
 import shoplogo from "/assets/shoplogo.png";
-import shootingLight from "/assets/shooting light.jpg";
+import shootingLight from "/assets/shootinglight.jpg";
 
 export default {
   num,
