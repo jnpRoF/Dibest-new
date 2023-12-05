@@ -5,77 +5,179 @@ import "../../index.css";
 const Footer = ({ footerColor }) => {
   return (
     <div id="footer" className="bg-cover bg-bottom bg-shootingLight">
-      <div className={`pt-24 h-full w-full ${footerColor} px-12 text-white`}>
-        <div className="flex justify-between border-b-2 pb-16 flex-wrap space-x-3  flex-col sm:flex-row">
-          <div className="flex flex-col space-y-3 items-center my-4">
+      <div className={`pt-24 h-full w-full ${footerColor} px-6 text-white`}>
+        <div className="flex justify-between border-b-2 pb-16 flex-wrap flex-col sm:flex-row">
+          <div className="flex flex-col w-full md:w-[40%] lg:w-auto md:mx-6 space-y-3 items-center my-4">
             <h3 className="font-semibold text-2xl">PLATFORM SERVICES</h3>
-            <a href="https://jtpmoagency.com" className="text-xl link">
+            <a
+              href="https://jtpmoagency.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-xl link"
+            >
               Digital Marketing
             </a>
-            <a href="" className="text-xl link">
+            <a
+              href=""
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-xl link"
+            >
               Business Consulting
             </a>
             <a
               href="https://7figurestrategyadvisors.com"
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-xl link"
             >
               Strategy Development
             </a>
-            <a href="https://mywarmembrace.com" className="text-xl link">
+            <a
+              href="https://mywarmembrace.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-xl link"
+            >
               Project Management
             </a>
-            <a href="" className="text-xl link">
+            <a
+              href=""
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-xl link"
+            >
               PR & Media Advertising
             </a>
-            <a href="https://jtpmo.com/brands" className="text-xl link">
+            <a
+              href="https://jtpmo.com/brands"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-xl link"
+            >
               Our Brands
             </a>
-            <a href="" className="text-xl link">
+            <a
+              href=""
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-xl link"
+            >
               Partners
             </a>
-            <a href="" className="text-xl link">
+            <a
+              href=""
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-xl link"
+            >
               Vendors
             </a>
-            <a href="" className="text-xl link">
+            <a
+              href=""
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-xl link"
+            >
               Medical Providers
             </a>
           </div>
-          <div className="flex flex-col space-y-3 items-center my-4">
+          <div className="flex flex-col w-full md:w-[40%] lg:w-auto md:mx-6 space-y-3 items-center my-4">
             <h3 className="font-semibold text-2xl">PLATFORM LINKS</h3>
-            <a href="" className="text-xl link">
+            <a
+              href=""
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-xl link"
+            >
               Media Releases
             </a>
-            <a href="" className="text-xl link">
+            <a
+              href=""
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-xl link"
+            >
               Staff
             </a>
-            <a href="" className="text-xl link">
+            <a
+              href=""
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-xl link"
+            >
               Affiliates
             </a>
-            <a href="" className="text-xl link">
+            <a
+              href=""
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-xl link"
+            >
               Press Kit
             </a>
-            <a href="" className="text-xl link">
+            <a
+              href=""
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-xl link"
+            >
               DiBest News
             </a>
-            <a href="" className="text-xl link">
+            <a
+              href=""
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-xl link"
+            >
               Community Education
             </a>
-            <a href="" className="text-xl link">
+            <a
+              href=""
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-xl link"
+            >
               FAQ
             </a>
-            <a href="" className="text-xl link">
+            <a
+              href=""
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-xl link"
+            >
               Terms of Service
             </a>
-            <a href="" className="text-xl link">
+            <a
+              href=""
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-xl link"
+            >
               Privacy Policy
             </a>
-            <a href="" className="text-xl link">
+            <a
+              href=""
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-xl link"
+            >
               Contact Us
             </a>
-            <a href="" className="text-xl link">
+            <a
+              href=""
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-xl link"
+            >
               Support
             </a>
-            <a href="" className="text-xl link">
+            <a
+              href=""
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-xl link"
+            >
               Blog
             </a>
             <div className="flex space-x-3 h-[90px]">
@@ -83,7 +185,7 @@ const Footer = ({ footerColor }) => {
               <img src={images.playstore2} alt="" className="h-full" />
             </div>
           </div>
-          <div className="flex flex-col space-y-3 items-center my-4">
+          <div className="flex flex-col w-full md:w-[40%] lg:w-auto md:mx-6 space-y-3 items-center my-4">
             <h3 className="font-semibold text-2xl">MARKETPLACES</h3>
             <a
               href="http://local.dibestspot.com"
@@ -109,7 +211,12 @@ const Footer = ({ footerColor }) => {
             >
               Property Rentals
             </a>
-            <a href="" className="text-xl link">
+            <a
+              href=""
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-xl link"
+            >
               Egift
             </a>
             <a
@@ -120,14 +227,24 @@ const Footer = ({ footerColor }) => {
             >
               Ewallets
             </a>
-            <a href="" className="text-xl link">
+            <a
+              href=""
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-xl link"
+            >
               Caribbean Region
             </a>
-            <a href="" className="text-xl link">
+            <a
+              href=""
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-xl link"
+            >
               Medical Services
             </a>
           </div>
-          <div className="flex flex-col w-full lg:w-[330px] space-y-14 my-4">
+          <div className="flex flex-col w-full md:w-[50%] lg:w-auto md:mx-6 md:w-full lg:w-[330px] space-y-14 my-4">
             <div className="flex flex-col space-y-3">
               <p>
                 Sign up to get the latest releases and freebies! Less than 2
@@ -157,7 +274,7 @@ const Footer = ({ footerColor }) => {
                 </a>
               </p>
               <div className="flex flex-col space-y-3">
-                <p className="font-semibold">MAILING ADDRESS:</p>
+                <p className="font-semibold text-xl">MAILING ADDRESS:</p>
                 <p className="font-semibold">658-223 SHAMROCK ROAD GT</p>
                 <p className="font-semibold">PO BOX 1912 GT</p>
                 <p className="font-semibold">GRAND CANYON</p>

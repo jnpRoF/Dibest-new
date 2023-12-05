@@ -6,16 +6,16 @@ import { Routes, Route } from "react-router-dom";
 import { useState } from "react";
 
 const App = () => {
-  const [display, setDisplay] = useState(false);
-  const getFormState = (showForm) => {
-    setDisplay(showForm);
-  };
+  // const [display, setDisplay] = useState(false);
+  // const getFormState = (showForm) => {
+  //   setDisplay(showForm);
+  // };
 
   return (
     <>
-      <NavBar getFormState={getFormState} display={display} />
+      <NavBar />
       <Routes>
-        <Route path="/" element={<Home display={display} />} />
+        <Route path="/" element={<Home />} />
         <Route path="platformvendor" element={<PlatformVendor />} />
       </Routes>
       <WhatsappBtn />

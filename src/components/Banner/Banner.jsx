@@ -6,7 +6,7 @@ const Banner = () => {
     <div className="flex flex-col justify-between h-[87%] mx-auto w-[75%] right-[13%]  absolute top-[35%] space-y-10 lg:w-[67%] lg:right-[17%] lg2:top-[37%]">
       <div className="flex justify-center w-full">
         <div className="flex flex-col space-y-6 items-center text-center w-4/5 text-white">
-          <h1 className="text-[2rem] font-semibold lg:text-[3rem] lg2:text-[4rem]">
+          <h1 className="text-[2rem] font-semibold md:text-[3rem] lg2:text-[4rem]">
             Welcome to DiBest Spot
           </h1>
           <p className="text-[1.2rem] leading-[1.6rem] mb-6 lg:text-2xl">

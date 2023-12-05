@@ -2,12 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import images from "../../constants/images";
 
-const NavBar = ({ getFormState, display }) => {
-  const handleFormDisplay = () => {
-    console.log("clik");
-    getFormState(!display);
-  };
-
+const NavBar = () => {
   const [isMenuOpen, setMenuOpen] = useState(false);
 
   const onMenuClick = () => {
@@ -16,18 +11,10 @@ const NavBar = ({ getFormState, display }) => {
 
   return (
     <nav className="flex justify-center py-4 border fixed z-10 w-full bg-white top-0">
-      <div className="flex mx-auto w-[95%] justify-between items-center lg:w-[90%]">
+      <div className="flex mx-auto w-[95%] justify-between items-center">
         <Link to="/">
           <img src={images.logo} alt="" />
         </Link>
-        {/* <div className="flex space-x-2 border border-gray-500 rounded-md">
-          <input
-            type="search"
-            name=""
-            placeholder="Search"
-            className="focus:outline-none p-1"
-          />
-        </div> */}
         <div className="hidden lg:flex space-x-7">
           <Link className="hover:text-gray-300" to="/">
             Home

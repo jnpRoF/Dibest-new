@@ -26,7 +26,7 @@ const Pricing = () => {
               href="https://submit.jotform.com/Spot_DiBest/members"
               target="_blank"
               rel="noopener noreferrer"
-              className="p-2 px-8 bg-gold rounded-md hover:opacity-90 hover:text-white"
+              className="p-2 px-8 text-white bg-purple hover:bg-transparent hover:border hover:border-purple rounded-md hover:opacity-90 hover:text-black"
             >
               FREE! START NOW
             </a>
@@ -51,7 +51,7 @@ const Pricing = () => {
                 href="https://form.jotform.com/Spot_DiBest/vendors"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="p-2 px-8 text-center bg-gold rounded-md hover:opacity-90 hover:text-white"
+                className="p-2 px-8 text-white text-center bg-purple rounded-md hover:bg-transparent hover:border hover:border-purple hover:opacity-90 hover:text-black"
               >
                 JOIN TODAY
               </a>

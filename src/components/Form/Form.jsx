@@ -1,14 +1,11 @@
 import images from "../../constants/images";
 import Button from "../Button/Button";
 
-const Form = ({ display }) => {
+const Form = () => {
   return (
     <div
-      className={`mx-auto w-4/5 py-8 px-6 bg-white rounded-lg shadow-lg absolute border border-gold top-24 z-20 left-[10%] ${
-        display === true ? "inline-block" : "hidden"
-      }`}
+      className={`mx-auto w-4/5 py-8 px-6 bg-white rounded-lg shadow-lg absolute border border-gold top-24 z-20 left-[10%]`}
     >
-      {/* <div></div> */}
       <form action="" className="flex flex-col space-y-4">
         <div className="flex flex-col space-y-3 justify-center items-center">
           <img src={images.logo} alt="" className="w-[90px] h-[30px]" />

@@ -11,7 +11,7 @@ import Advert from "../../components/Advert/Advert";
 import Footer from "../../components/Footer/Footer";
 import Form from "../../components/Form/Form";
 
-const Home = ({ display }) => {
+const Home = () => {
   return (
     <>
       <SliderComp />
@@ -25,7 +25,7 @@ const Home = ({ display }) => {
       <Pricing />
       <Advert />
       <Footer footerColor="bg-gold/80" />
-      <Form display={display} />
+      {/* <Form /> */}
     </>
   );
 };
