@@ -11,7 +11,7 @@ export default {
     },
     extend: {
       backgroundImage: {
-        shootingLight: "url(/assets/shooting light.jpg)",
+        shootingLight: "url(/assets/shootinglight.jpg)",
       },
       colors: {
         gold: "#A78236",
