@@ -6,7 +6,6 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { useState } from "react";
 import "../../index.css";
-import images from "../../constants/images";
 
 const MarketPlace = () => {
   console.log(marketplaces);
@@ -17,7 +16,7 @@ const MarketPlace = () => {
   };
 
   const settings = {
-    // speed: 500,
+    speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
     infinite: true,
@@ -81,7 +80,7 @@ const MarketPlace = () => {
       </div>
       {/* <div className="flex space-x-2 p-5 "> */}
       {/* <div className=""> */}
-      <Slider {...settings}>
+      <Slider {...settings} activeFaceId={activeFaceId}>
         {marketplaces.map((eachMarketPlace, index) => {
           return (
             <div
