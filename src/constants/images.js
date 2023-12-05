@@ -14,7 +14,6 @@ import card5 from "/assets/card5.jfif";
 import card6 from "/assets/card6.jfif";
 import dibest from "/assets/dibest.png";
 import ewallet from "/assets/ewallet.jpg";
-import fadi from "/assets/fadi.jpeg";
 import fadi2 from "/assets/fadi.png";
 import frame1 from "/assets/frame1.jfif";
 import frame2 from "/assets/frame2.jfif";
@@ -66,7 +65,6 @@ export default {
   playstore2,
   shoplogo,
   ewallet,
-  fadi,
   fadi2,
   frame1,
   frame2,
@@ -87,3 +85,13 @@ export default {
   vector2,
   shootingLight,
 };
+
+const leftBtn = document.querySelectorAll(".slick-prev");
+const rightBtn = document.querySelectorAll(".slick-nect");
+
+
+console.log(leftBtn);
+for (let i = 0; i < leftBtn.length; i++) {
+  const element = leftBtn[1];
+  element.style.color = "black";
+}

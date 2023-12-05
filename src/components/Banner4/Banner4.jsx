@@ -38,7 +38,7 @@ const Banner4 = () => {
               />
               <Card2
                 src={images.num3}
-                trans="lg:translate-x-[14px] lg:translate-y-[-25px]"
+                trans="lg:translate-x-[14px] lg:translate-y-[-48px]"
                 headText="Joan C"
                 bodyTextHead="On-Demand Service:"
                 bodyText={`"The on-demand services on this platform have been a game-changer for me. Whether it's a last-minute home cleaning or receiving a quick food delivery at my hotel, the ease of finding reliable service providers has made my life so much easier living in Cayman Islands.The integration with the eWallet ensures swift and hassle-free transactions."`}

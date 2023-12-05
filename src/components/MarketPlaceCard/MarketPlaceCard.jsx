@@ -13,11 +13,11 @@ const MarketPlaceCard = ({ headText, bodyText, btnColor }) => {
           <div className="flex flex-col space-y-3">
             <p className="text-base">{bodyText}</p>
           </div>
-          <div className="">
+          {/* <div className="">
             <Button className={`p-2 px-8 ${btnColor} rounded-sm text-white`}>
               LEARN MORE
             </Button>
-          </div>
+          </div> */}
         </div>
       </>
     </div>

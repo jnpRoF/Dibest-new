@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import images from "../../constants/images";
-import Button from "../Button/Button";
 
 const NavBar = ({ getFormState, display }) => {
   const handleFormDisplay = () => {
@@ -17,7 +16,7 @@ const NavBar = ({ getFormState, display }) => {
 
   return (
     <nav className="flex justify-center py-4 border fixed z-10 w-full bg-white top-0">
-      <div className="flex mx-auto w-[90%] justify-between items-center lg:w-[95%]">
+      <div className="flex mx-auto w-[95%] justify-between items-center lg:w-[90%]">
         <Link to="/">
           <img src={images.logo} alt="" />
         </Link>
@@ -45,7 +44,7 @@ const NavBar = ({ getFormState, display }) => {
           <Link className="hover:text-gray-300" to="platformvendor">
             Platform Vendors
           </Link>
-          <a className="hover:text-gray-300" href="#contact">
+          <a className="hover:text-gray-300" href="#footer">
             Contact Us
           </a>
         </div>
@@ -99,30 +98,44 @@ const NavBar = ({ getFormState, display }) => {
           </Link>
           <a
             className="hover:border border-gold rounded-full p-2 px-8"
-            href="#contact"
+            href="#footer"
           >
             Contact Us
           </a>
-          <Button
+          <a
+            href="https://form.jotform.com/Spot_DiBest/vendors"
+            target="_blank"
+            rel="noopener noreferrer"
             className="p-2 px-5 bg-purple text-white rounded-md text-sm hover:bg-transparent hover:border hover:border-gold hover:text-black"
-            onClick={handleFormDisplay}
           >
             Enroll As Vendor
-          </Button>
-          <Button className="p-2 px-8 bg-gold text-white rounded-md text-sm hover:opacity-90">
+          </a>
+          <a
+            href="https://panel.dibestspot.com/login"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="p-2 px-8 bg-gold text-white rounded-md text-sm hover:opacity-90"
+          >
             Login
-          </Button>
+          </a>
         </div>
         <div className="space-x-3 hidden lg:flex">
-          <Button
-            className="p-2 px-5 bg-purple text-white rounded-md text-sm hover:bg-transparent hover:border hover:border-gold hover:text-black"
-            onClick={handleFormDisplay}
+          <a
+            href="https://form.jotform.com/Spot_DiBest/vendors"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="p-2 px-5 bg-purple text-white rounded-md text-sm hover:bg-transparent border border-gold hover:text-black"
           >
             Enroll As Vendor
-          </Button>
-          <Button className="p-2 px-8 bg-gold text-white rounded-md text-sm hover:opacity-90">
+          </a>
+          <a
+            href="https://panel.dibestspot.com/login"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="p-2 px-8 bg-gold text-white rounded-md text-sm hover:bg-transparent border border-gold hover:text-black"
+          >
             Login
-          </Button>
+          </a>
         </div>
       </div>
     </nav>

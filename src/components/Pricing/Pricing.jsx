@@ -12,7 +12,6 @@ const Pricing = () => {
       <div className="bg-purple py-4">
         <div className="mx-auto flex w-4/5 lg2:w-1/2 justify-between flex-col space-y-3 md:flex-row md:space-y-0 items-center">
           <PricingCard headText="DiBest Member">
-            <span>FREE TO JOIN</span>
             <p className="text-center">
               Members can participate in both Auctions and classified listing.
             </p>
@@ -22,6 +21,14 @@ const Pricing = () => {
             </p>
             <a href="mailto:info@dibestspot.com" className="underline">
               info@dibestspot.com
+            </a>
+            <a
+              href="https://submit.jotform.com/Spot_DiBest/members"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-2 px-8 bg-gold rounded-md hover:opacity-90 hover:text-white"
+            >
+              FREE! START NOW
             </a>
           </PricingCard>
           <PricingCard headText="DiBest Vendors">
@@ -39,6 +46,14 @@ const Pricing = () => {
                 className="underline text-center"
               >
                 info@dibestspot.com
+              </a>
+              <a
+                href="https://form.jotform.com/Spot_DiBest/vendors"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="p-2 px-8 text-center bg-gold rounded-md hover:opacity-90 hover:text-white"
+              >
+                JOIN TODAY
               </a>
             </div>
           </PricingCard>

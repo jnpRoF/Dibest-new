@@ -12,9 +12,14 @@ const Banner = () => {
           <p className="text-[1.2rem] leading-[1.6rem] mb-6 lg:text-2xl">
             Explore, Sign-up and Connect in the Cayman Islands and the Caribbean
           </p>
-          <Button className="p-2 px-8 bg-gold rounded-md hover:opacity-90">
-            Start Now
-          </Button>
+          <a
+            href="https://submit.jotform.com/Spot_DiBest/members"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="p-2 px-8 bg-gold rounded-md hover:opacity-90 hover:text-black"
+          >
+            JOIN THE WAITING LIST
+          </a>
         </div>
       </div>
       <div className="flex flex-col space-y-5 justify-between p-7 lg:px-14 bg-gold rounded-xl lg:flex-row lg:items-center lg:space-y-0 lg:space-x-3">

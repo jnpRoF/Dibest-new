@@ -4,7 +4,7 @@ import "../../index.css";
 
 const Footer = ({ footerColor }) => {
   return (
-    <div className="bg-cover bg-bottom bg-shootingLight">
+    <div id="footer" className="bg-cover bg-bottom bg-shootingLight">
       <div className={`pt-24 h-full w-full ${footerColor} px-12 text-white`}>
         <div className="flex justify-between border-b-2 pb-16 flex-wrap space-x-3  flex-col sm:flex-row">
           <div className="flex flex-col space-y-3 items-center my-4">
@@ -95,6 +95,8 @@ const Footer = ({ footerColor }) => {
             </a>
             <a
               href="https://ondemandadmin.dibestspot.com"
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-xl link"
             >
               OnDemand Services
@@ -112,6 +114,8 @@ const Footer = ({ footerColor }) => {
             </a>
             <a
               href="https://ewalletadmin.dibestspot.com"
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-xl link"
             >
               Ewallets
@@ -147,8 +151,8 @@ const Footer = ({ footerColor }) => {
               <h3 className="font-semibold text-2xl">Contact Us:</h3>
               <p className="font-semibold">
                 Have questions or suggestions? We'd love to hear from you!
-                Contact our dedicated support team at{" "}
-                <a href="mailto:info@dibestspot.com" className="underline">
+                Contact our dedicated support team at
+                <a href="mailto:info@dibestspot.com" className="underline ml-2">
                   info@dibestspot.com
                 </a>
               </p>
