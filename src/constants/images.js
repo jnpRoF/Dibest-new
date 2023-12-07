@@ -86,12 +86,3 @@ export default {
   shootingLight,
 };
 
-const leftBtn = document.querySelectorAll(".slick-prev");
-const rightBtn = document.querySelectorAll(".slick-nect");
-
-
-console.log(leftBtn);
-for (let i = 0; i < leftBtn.length; i++) {
-  const element = leftBtn[1];
-  element.style.color = "black";
-}

@@ -4,27 +4,14 @@ import marketplaces from "../../constants/marketplaces";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { useState } from "react";
 import "../../index.css";
 
 const MarketPlace = () => {
-  console.log(marketplaces);
-  const [activeFaceId, setActiveFaceId] = useState(0);
-
-  const handleButtonClick = (id) => {
-    setActiveFaceId(id);
-  };
-
   const settings = {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
     infinite: true,
-    // autoplay: true,
-    // autoplaySpeed: 1000,
-    // afterChange: (index) => {
-    //   console.log("current slide", index);
-    // },
   };
   return (
     <>
@@ -35,17 +22,12 @@ const MarketPlace = () => {
         <div className="flex flex-wrap px-4 lg:space-x-3 justify-center lg:justify-between">
           {marketplaces.map((eachMarketPlace) => {
             return (
-              <Button
-                className={`${eachMarketPlace.btnColor} p-2 px-8 m-2 ${
-                  activeFaceId === eachMarketPlace.id ? "active" : ""
-                }`}
+              <span
+                className={`${eachMarketPlace.btnColor} p-2 px-8 m-2`}
                 key={eachMarketPlace.id}
-                onClick={() => {
-                  handleButtonClick(eachMarketPlace.id);
-                }}
               >
                 {eachMarketPlace.headText}
-              </Button>
+              </span>
             );
           })}
           {/* <Button className="bg-restaurantsColor p-2 px-8 m-2">
@@ -80,7 +62,7 @@ const MarketPlace = () => {
       </div>
       {/* <div className="flex space-x-2 p-5 "> */}
       {/* <div className=""> */}
-      <Slider {...settings} activeFaceId={activeFaceId}>
+      <Slider {...settings}>
         {marketplaces.map((eachMarketPlace, index) => {
           return (
             <div

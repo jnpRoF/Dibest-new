@@ -1,7 +1,5 @@
 import { CiGlobe } from "react-icons/ci";
-
 import { GiShoppingBag } from "react-icons/gi";
-
 import images from "../../constants/images";
 import Card from "../Card/Card";
 

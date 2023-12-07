@@ -1,5 +1,4 @@
 import images from "../../constants/images";
-import Button from "../Button/Button";
 import "../../index.css";
 
 const Footer = ({ footerColor }) => {
