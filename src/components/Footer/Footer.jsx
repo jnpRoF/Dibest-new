@@ -8,13 +8,13 @@ const Footer = ({ footerColor }) => {
       <div className={`pt-24 h-full w-full ${footerColor} px-6 text-white`}>
         <div className="flex justify-between pb-16 flex-col sm:flex-row  md:w-3/5 lg:w-1/2 flex-wrap">
           <div className="flex flex-col w-full sm:w-1/2 space-y-6">
-            <img src={images.logo} alt="" className="w-[140px] h-[50px]" />
+            <img src={images.logo} alt="" className="w-[180px] h-[50px]" />
             <div className="flex flex-col space-y-3">
-              <h3 className="font-semibold text-2xl">Contact Us</h3>
-              <p className="font-semibold text-xl">MAILING ADDRESS:</p>
+              <h3 className="font-semibold text-2xl">Contact Us:</h3>
+              <p className="font-semibold text-base">MAILING ADDRESS:</p>
               <h3 className="font-semibold">DiBest Spot Limited</h3>
               <p className="font-semibold">PO BOX 10328</p>
-              <p className="font-semibold">George Town, Grsnd Cayman</p>
+              <p className="font-semibold">George Town, Grand Cayman</p>
               <p className="font-semibold">Cayman Islands</p>
             </div>
             <p className="font-semibold">

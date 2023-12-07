@@ -119,6 +119,34 @@
   transform: rotate(-45deg) translateY(6px) translate(-6px);
 }
 
+/* Tooltip */
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: visible;
+  width: 120px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  padding: 15px 56px;
+  border-radius: 6px;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 155%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 9px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
 /* Media Query */
 @media screen and (min-width: 976px) {
   .slick-prev::before,

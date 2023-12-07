@@ -2,7 +2,7 @@ import Feature from "../Feature/Feature";
 
 const Features = () => {
   return (
-    <div className="mb-20 mt-[34rem] lg:mt-0" id="features">
+    <div className="mb-20 mt-[33rem] sm:mt-[25rem] lg:mt-[18rem]" id="features">
       <div className="mt-[15rem] mb-12 text-center md:mb-14">
         <h2 className=" text-3xl md:text-4xl font-semibold">Key Features</h2>
       </div>

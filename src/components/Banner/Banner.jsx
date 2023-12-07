@@ -39,7 +39,7 @@ const Banner = () => {
               Cayman Islands in mind
             </p>
           </div>
-          <div className="bg-white py-8 space-y-3 flex flex-col items-center rounded-xl lg:w-[48%] xl:h-52">
+          <div className="bg-white py-8 px-2 sm:px-0 space-y-3 flex flex-col items-center rounded-xl lg:w-[48%] xl:h-52">
             🌺
             <div className="flex-flex-col">
               <h2 className="font-semibold text-lg">Carribean Region</h2>

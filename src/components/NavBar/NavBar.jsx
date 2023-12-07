@@ -9,6 +9,10 @@ const NavBar = () => {
     setMenuOpen(!isMenuOpen);
   };
 
+  // const handleMenuDisplay = () => {
+  //   setMenuOpen(!isMenuOpen)
+  // }
+
   return (
     <nav className="flex justify-center py-4 border fixed z-10 w-full bg-white top-0">
       <div className="flex mx-auto w-[95%] justify-between items-center">
@@ -49,9 +53,10 @@ const NavBar = () => {
         </button>
         <div
           id="menu"
-          className={`absolute flex flex-col items-center self-end py-6 top-24 space-y-4 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md ${
+          className={`absolute flex flex-col items-center self-end py-6 top-[5rem] space-y-4 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md ${
             isMenuOpen === false ? "" : "flex"
           } ${isMenuOpen === false ? "hidden" : ""}`}
+          onClick={onMenuClick}
         >
           <Link
             className="hover:border border-gold rounded-full p-2 px-8"
