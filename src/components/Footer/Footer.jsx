@@ -6,8 +6,30 @@ const Footer = ({ footerColor }) => {
   return (
     <div id="footer" className="bg-cover bg-bottom bg-shootingLight">
       <div className={`pt-24 h-full w-full ${footerColor} px-6 text-white`}>
-        <div className="flex justify-between border-b-2 pb-16 flex-wrap flex-col sm:flex-row">
-          <div className="flex flex-col w-full md:w-[40%] lg:w-auto md:mx-6 space-y-3 items-center my-4">
+        <div className="flex justify-between pb-16 flex-col sm:flex-row  md:w-3/5 lg:w-1/2 flex-wrap">
+          <div className="flex flex-col w-full sm:w-1/2 space-y-6">
+            <img src={images.logo} alt="" className="w-[140px] h-[50px]" />
+            <div className="flex flex-col space-y-3">
+              <h3 className="font-semibold text-2xl">Contact Us</h3>
+              <p className="font-semibold text-xl">MAILING ADDRESS:</p>
+              <h3 className="font-semibold">DiBest Spot Limited</h3>
+              <p className="font-semibold">PO BOX 10328</p>
+              <p className="font-semibold">George Town, Grsnd Cayman</p>
+              <p className="font-semibold">Cayman Islands</p>
+            </div>
+            <p className="font-semibold">
+              Email:
+              <a href="mailto:info@dibestspot.com" className="underline ml-2">
+                info@dibestspot.com
+              </a>
+            </p>
+          </div>
+          <div className="flex space-x-3 h-[90px]">
+            <img src={images.playstore1} alt="" className="h-[7rem]" />
+            <img src={images.playstore2} alt="" className="h-[7rem]" />
+          </div>
+
+          {/* <div className="flex flex-col w-full md:w-[40%] lg:w-auto md:mx-6 space-y-3 items-center my-4">
             <h3 className="font-semibold text-2xl">PLATFORM SERVICES</h3>
             <a
               href="https://jtpmoagency.com"
@@ -212,6 +234,15 @@ const Footer = ({ footerColor }) => {
               Property Rentals
             </a>
             <a
+              href="https://ecommerce.dibestspot.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-xl link"
+            >
+              Ecommerce
+            </a>
+            <a
+            <a
               href=""
               target="_blank"
               rel="noopener noreferrer"
@@ -243,8 +274,8 @@ const Footer = ({ footerColor }) => {
             >
               Medical Services
             </a>
-          </div>
-          <div className="flex flex-col w-full md:w-[50%] lg:w-auto md:mx-6 md:w-full lg:w-[330px] space-y-14 my-4">
+          </div> */}
+          {/* <div className="flex flex-col w-full md:w-[50%] lg:w-auto md:mx-6 md:w-full lg:w-[330px] space-y-14 my-4">
             <div className="flex flex-col space-y-3">
               <p>
                 Sign up to get the latest releases and freebies! Less than 2
@@ -282,10 +313,14 @@ const Footer = ({ footerColor }) => {
                 <p className="font-semibold">Cayman Islands</p>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
-        <div className="flex items-center justify-center py-8 font-semibold">
-          &copy;2023 DiBest Spot. All Rights Reserved
+        <div className="py-8 border-t-2">
+          <p>
+            &copy;2023 Copyrights by
+            <span className="font-semibold"> DiBest Spot Limited. </span> All
+            Rights Reserved
+          </p>
         </div>
       </div>
     </div>
