@@ -12,9 +12,9 @@ const Footer = ({ footerColor }) => {
               <h3 className="font-semibold text-2xl">Contact Us:</h3>
               <p className="font-semibold text-base">MAILING ADDRESS:</p>
               <h3 className="font-semibold">DiBest Spot Limited</h3>
-              <p className="font-semibold">PO BOX 10328</p>
-              <p className="font-semibold">George Town, Grand Cayman</p>
-              <p className="font-semibold">Cayman Islands</p>
+              <p className="font-semibold">P.O. BOX 1912</p>
+              <p className="font-semibold">GRAND CAYMAN KY1-1110</p>
+              <p className="font-semibold">CAYMAN ISLANDS</p>
             </div>
             <p className="font-semibold">
               Email:
